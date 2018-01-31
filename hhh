@@ -1,0 +1,15 @@
+console.log(Math.ceil());//round up to the close integer
+ Math.random() //random number
+ 
+ var n0,n1,n2;
+ var tmp0 = Math.random（）*6；
+ n0=Math.ceil(tmp0);
+  var tmp1 = Math.random（）*6；
+ n0=Math.ceil(tmp1);
+  var tmp2 = Math.random（）*6；
+ n0=Math.ceil(tmp2 );
+ 
+ 
+ function getRandomArbitrary(min, max) {
+  return Math.random() * (max - min) + min;
+}/// math random *x+y which y is min x is differnece between x and y
